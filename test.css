@@ -1,0 +1,37 @@
+body{
+    background: url("images/menuBarBackground.gif");
+    border-style: dashed;
+}
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: #d9ffdb;
+}
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: #6863ff;
+}
+
+input {
+    color: red;
+    text-align: center;
+    background: #76ff30;
+    width: 100px;
+    font-family: FangSong;
+}
+
+.inputClass{
+    text-align: center;
+    color: #6863ff;
+    width: 200px;
+    background: #ff73f5;
+}
+a:link{
+    color:red;
+}
+a:hover{
+    color: hotpink;
+}
