@@ -16,7 +16,9 @@ app.controller('MainCtrl',[
         ];
     }
 ]);
+
 var fs = require('fs'); // this engine requires the fs module
+
 app.engine('ntl', function (filePath, options, callback) { // define the template engine
     fs.readFile(filePath, function (err, content) {
         if (err) return callback(new Error(err));
